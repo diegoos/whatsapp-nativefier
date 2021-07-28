@@ -30,5 +30,11 @@ xprop WM_CLASS
 Update the `WMClass` on `whatsapp.desktop` and copy it to `/usr/share/applications`.
 
 ```sh
-cp whatsapp.desktop /usr/share/applications
+cp whatsapp.desktop ~/.local/share/applications/
 ```
+
+> It is possible that you need to run the command below to make the `.desktop` file work on `~/.local/share/applications`
+>
+> ```sh
+> update-desktop-database ~/.local/share/applications/
+> ```
