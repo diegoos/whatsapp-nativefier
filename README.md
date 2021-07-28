@@ -1,3 +1,9 @@
+# Whatsapp build with nativefier
+
+Nativefier repository: https://github.com/nativefier/nativefier
+
+Based on: https://github.com/frealgagu/archlinux.whatsapp-nativefier
+
 ## Create whatsapp application
 
 ```sh
